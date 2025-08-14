@@ -9,7 +9,7 @@ export default function App() {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState('');
 
-  const API_KEY = '77753ee47e32c1b025680cc6ccd3137c'; 
+  const API_KEY = ''; 
 
   const getWeather = async () => {
     if (!city.trim()) {
